@@ -16,10 +16,10 @@ a * b  //Wtf..
 a / b  //God please save me
 
 //You have to write these instead
-a + Double(b)
-a - Double(b)
-a * Double(b)
-a / Double(b)
+Double(a) + b
+Double(a) - b
+Double(a) * b
+Double(a) / b
 ```
 
 Yes, it is type safe, but it is also time wasted.
