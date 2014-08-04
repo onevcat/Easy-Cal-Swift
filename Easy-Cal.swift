@@ -8,162 +8,162 @@
 
 import Foundation
 
-@infix func +(lhs: Int, rhs: Double) -> Double {
+func +(lhs: Int, rhs: Double) -> Double {
     return Double(lhs) + rhs
 }
 
-@infix func +(lhs: Double, rhs: Int) -> Double {
+func +(lhs: Double, rhs: Int) -> Double {
     return lhs + Double(rhs)
 }
 
-@infix func +(lhs: Int, rhs: Float) -> Float {
+func +(lhs: Int, rhs: Float) -> Float {
     return Float(lhs) + rhs
 }
 
-@infix func +(lhs: Float, rhs: Int) -> Float {
+func +(lhs: Float, rhs: Int) -> Float {
     return lhs + Float(rhs)
 }
 
-@infix func +(lhs: Float, rhs: Double) -> Double {
+func +(lhs: Float, rhs: Double) -> Double {
     return Double(lhs) + rhs
 }
 
-@infix func +(lhs: Double, rhs: Float) -> Double {
+func +(lhs: Double, rhs: Float) -> Double {
     return lhs + Double(rhs)
 }
 
-@infix func +(lhs: UInt, rhs: Double) -> Double {
+func +(lhs: UInt, rhs: Double) -> Double {
     return Double(lhs) + rhs
 }
 
-@infix func +(lhs: Double, rhs: UInt) -> Double {
+func +(lhs: Double, rhs: UInt) -> Double {
     return lhs + Double(rhs)
 }
 
-@infix func +(lhs: UInt, rhs: Float) -> Float {
+func +(lhs: UInt, rhs: Float) -> Float {
     return Float(lhs) + rhs
 }
 
-@infix func +(lhs: Float, rhs: UInt) -> Float {
+func +(lhs: Float, rhs: UInt) -> Float {
     return lhs + Float(rhs)
 }
 
-@infix func -(lhs: Int, rhs: Double) -> Double {
+func -(lhs: Int, rhs: Double) -> Double {
     return Double(lhs) - rhs
 }
 
-@infix func -(lhs: Double, rhs: Int) -> Double {
+func -(lhs: Double, rhs: Int) -> Double {
     return lhs - Double(rhs)
 }
 
-@infix func -(lhs: Int, rhs: Float) -> Float {
+func -(lhs: Int, rhs: Float) -> Float {
     return Float(lhs) - rhs
 }
 
-@infix func -(lhs: Float, rhs: Int) -> Float {
+func -(lhs: Float, rhs: Int) -> Float {
     return lhs - Float(rhs)
 }
 
-@infix func -(lhs: Float, rhs: Double) -> Double {
+func -(lhs: Float, rhs: Double) -> Double {
     return Double(lhs) - rhs
 }
 
-@infix func -(lhs: Double, rhs: Float) -> Double {
+func -(lhs: Double, rhs: Float) -> Double {
     return lhs - Double(rhs)
 }
 
-@infix func -(lhs: UInt, rhs: Double) -> Double {
+func -(lhs: UInt, rhs: Double) -> Double {
     return Double(lhs) - rhs
 }
 
-@infix func -(lhs: Double, rhs: UInt) -> Double {
+func -(lhs: Double, rhs: UInt) -> Double {
     return lhs - Double(rhs)
 }
 
-@infix func -(lhs: UInt, rhs: Float) -> Float {
+func -(lhs: UInt, rhs: Float) -> Float {
     return Float(lhs) - rhs
 }
 
-@infix func -(lhs: Float, rhs: UInt) -> Float {
+func -(lhs: Float, rhs: UInt) -> Float {
     return lhs - Float(rhs)
 }
 
-@infix func *(lhs: Int, rhs: Double) -> Double {
+func *(lhs: Int, rhs: Double) -> Double {
     return Double(lhs) * rhs
 }
 
-@infix func *(lhs: Double, rhs: Int) -> Double {
+func *(lhs: Double, rhs: Int) -> Double {
     return lhs * Double(rhs)
 }
 
-@infix func *(lhs: Int, rhs: Float) -> Float {
+func *(lhs: Int, rhs: Float) -> Float {
     return Float(lhs) * rhs
 }
 
-@infix func *(lhs: Float, rhs: Int) -> Float {
+func *(lhs: Float, rhs: Int) -> Float {
     return lhs * Float(rhs)
 }
 
-@infix func *(lhs: Float, rhs: Double) -> Double {
+func *(lhs: Float, rhs: Double) -> Double {
     return Double(lhs) * rhs
 }
 
-@infix func *(lhs: Double, rhs: Float) -> Double {
+func *(lhs: Double, rhs: Float) -> Double {
     return lhs * Double(rhs)
 }
 
-@infix func *(lhs: UInt, rhs: Double) -> Double {
+func *(lhs: UInt, rhs: Double) -> Double {
     return Double(lhs) * rhs
 }
 
-@infix func *(lhs: Double, rhs: UInt) -> Double {
+func *(lhs: Double, rhs: UInt) -> Double {
     return lhs * Double(rhs)
 }
 
-@infix func *(lhs: UInt, rhs: Float) -> Float {
+func *(lhs: UInt, rhs: Float) -> Float {
     return Float(lhs) * rhs
 }
 
-@infix func *(lhs: Float, rhs: UInt) -> Float {
+func *(lhs: Float, rhs: UInt) -> Float {
     return lhs * Float(rhs)
 }
 
-@infix func /(lhs: Int, rhs: Double) -> Double {
+func /(lhs: Int, rhs: Double) -> Double {
     return Double(lhs) / rhs
 }
 
-@infix func /(lhs: Double, rhs: Int) -> Double {
+func /(lhs: Double, rhs: Int) -> Double {
     return lhs / Double(rhs)
 }
 
-@infix func /(lhs: Int, rhs: Float) -> Float {
+func /(lhs: Int, rhs: Float) -> Float {
     return Float(lhs) / rhs
 }
 
-@infix func /(lhs: Float, rhs: Int) -> Float {
+func /(lhs: Float, rhs: Int) -> Float {
     return lhs / Float(rhs)
 }
 
-@infix func /(lhs: Float, rhs: Double) -> Double {
+func /(lhs: Float, rhs: Double) -> Double {
     return Double(lhs) / rhs
 }
 
-@infix func /(lhs: Double, rhs: Float) -> Double {
+func /(lhs: Double, rhs: Float) -> Double {
     return lhs / Double(rhs)
 }
 
-@infix func /(lhs: UInt, rhs: Double) -> Double {
+func /(lhs: UInt, rhs: Double) -> Double {
     return Double(lhs) / rhs
 }
 
-@infix func /(lhs: Double, rhs: UInt) -> Double {
+func /(lhs: Double, rhs: UInt) -> Double {
     return lhs / Double(rhs)
 }
 
-@infix func /(lhs: UInt, rhs: Float) -> Float {
+func /(lhs: UInt, rhs: Float) -> Float {
     return Float(lhs) / rhs
 }
 
-@infix func /(lhs: Float, rhs: UInt) -> Float {
+func /(lhs: Float, rhs: UInt) -> Float {
     return lhs / Float(rhs)
 }
