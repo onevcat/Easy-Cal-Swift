@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreGraphics
 
 func +(lhs: Int, rhs: Double) -> Double {
     return Double(lhs) + rhs
@@ -166,4 +167,134 @@ func /(lhs: UInt, rhs: Float) -> Float {
 
 func /(lhs: Float, rhs: UInt) -> Float {
     return lhs / Float(rhs)
+}
+
+// MARK: - Core Graphics Calculation
+
+func +(lhs: CGFloat, rhs: Float) -> CGFloat {
+    return lhs + CGFloat(rhs)
+}
+
+func +(lhs: Float, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) + rhs
+}
+
+func +(lhs: CGFloat, rhs: Double) -> CGFloat {
+    return lhs + CGFloat(rhs)
+}
+
+func +(lhs: Double, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) + rhs
+}
+
+func +(lhs: CGFloat, rhs: Int) -> CGFloat {
+    return lhs + CGFloat(rhs)
+}
+
+func +(lhs: Int, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) + rhs
+}
+
+func +(lhs: CGFloat, rhs: UInt) -> CGFloat {
+    return lhs + CGFloat(rhs)
+}
+
+func +(lhs: UInt, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) + rhs
+}
+
+func -(lhs: CGFloat, rhs: Float) -> CGFloat {
+    return lhs - CGFloat(rhs)
+}
+
+func -(lhs: Float, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) - rhs
+}
+
+func -(lhs: CGFloat, rhs: Double) -> CGFloat {
+    return lhs - CGFloat(rhs)
+}
+
+func -(lhs: Double, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) - rhs
+}
+
+func -(lhs: CGFloat, rhs: Int) -> CGFloat {
+    return lhs - CGFloat(rhs)
+}
+
+func -(lhs: Int, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) - rhs
+}
+
+func -(lhs: CGFloat, rhs: UInt) -> CGFloat {
+    return lhs - CGFloat(rhs)
+}
+
+func -(lhs: UInt, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) - rhs
+}
+
+func *(lhs: CGFloat, rhs: Float) -> CGFloat {
+    return lhs * CGFloat(rhs)
+}
+
+func *(lhs: Float, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) * rhs
+}
+
+func *(lhs: CGFloat, rhs: Double) -> CGFloat {
+    return lhs * CGFloat(rhs)
+}
+
+func *(lhs: Double, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) * rhs
+}
+
+func *(lhs: CGFloat, rhs: Int) -> CGFloat {
+    return lhs * CGFloat(rhs)
+}
+
+func *(lhs: Int, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) * rhs
+}
+
+func *(lhs: CGFloat, rhs: UInt) -> CGFloat {
+    return lhs * CGFloat(rhs)
+}
+
+func *(lhs: UInt, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) * rhs
+}
+
+func /(lhs: CGFloat, rhs: Float) -> CGFloat {
+    return lhs / CGFloat(rhs)
+}
+
+func /(lhs: Float, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) / rhs
+}
+
+func /(lhs: CGFloat, rhs: Double) -> CGFloat {
+    return lhs / CGFloat(rhs)
+}
+
+func /(lhs: Double, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) / rhs
+}
+
+func /(lhs: CGFloat, rhs: Int) -> CGFloat {
+    return lhs / CGFloat(rhs)
+}
+
+func /(lhs: Int, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) / rhs
+}
+
+func /(lhs: CGFloat, rhs: UInt) -> CGFloat {
+    return lhs / CGFloat(rhs)
+}
+
+func /(lhs: UInt, rhs: CGFloat) -> CGFloat {
+    return CGFloat(lhs) / rhs
 }
