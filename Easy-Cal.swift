@@ -49,6 +49,22 @@ func +(lhs: Float, rhs: UInt) -> Float {
     return lhs + Float(rhs)
 }
 
+func +(lhs: UInt, rhs: Int) -> Int {
+    return Int(lhs) + rhs
+}
+
+func +(lhs: Int, rhs: UInt) -> Int {
+    return lhs + Int(rhs)
+}
+
+func +(lhs: Int64, rhs: UInt64) -> Int64 {
+    return lhs + Int64(rhs)
+}
+
+func +(lhs: UInt64, rhs: Int64) -> Int64 {
+    return Int64(lhs) + rhs
+}
+
 func -(lhs: Int, rhs: Double) -> Double {
     return Double(lhs) - rhs
 }
@@ -87,6 +103,22 @@ func -(lhs: UInt, rhs: Float) -> Float {
 
 func -(lhs: Float, rhs: UInt) -> Float {
     return lhs - Float(rhs)
+}
+
+func -(lhs: UInt, rhs: Int) -> Int {
+    return Int(lhs) - rhs
+}
+
+func -(lhs: Int, rhs: UInt) -> Int {
+    return lhs - Int(rhs)
+}
+
+func -(lhs: Int64, rhs: UInt64) -> Int64 {
+    return lhs - Int64(rhs)
+}
+
+func -(lhs: UInt64, rhs: Int64) -> Int64 {
+    return Int64(lhs) - rhs
 }
 
 func *(lhs: Int, rhs: Double) -> Double {
@@ -129,6 +161,22 @@ func *(lhs: Float, rhs: UInt) -> Float {
     return lhs * Float(rhs)
 }
 
+func *(lhs: UInt, rhs: Int) -> Int {
+    return Int(lhs) * rhs
+}
+
+func *(lhs: Int, rhs: UInt) -> Int {
+    return lhs * Int(rhs)
+}
+
+func *(lhs: Int64, rhs: UInt64) -> Int64 {
+    return lhs * Int64(rhs)
+}
+
+func *(lhs: UInt64, rhs: Int64) -> Int64 {
+    return Int64(lhs) * rhs
+}
+
 func /(lhs: Int, rhs: Double) -> Double {
     return Double(lhs) / rhs
 }
@@ -167,6 +215,22 @@ func /(lhs: UInt, rhs: Float) -> Float {
 
 func /(lhs: Float, rhs: UInt) -> Float {
     return lhs / Float(rhs)
+}
+
+func /(lhs: UInt, rhs: Int) -> Int {
+    return Int(lhs) / rhs
+}
+
+func /(lhs: Int, rhs: UInt) -> Int {
+    return lhs / Int(rhs)
+}
+
+func /(lhs: Int64, rhs: UInt64) -> Int64 {
+    return lhs / Int64(rhs)
+}
+
+func /(lhs: UInt64, rhs: Int64) -> Int64 {
+    return Int64(lhs) / rhs
 }
 
 // MARK: - Core Graphics Calculation
